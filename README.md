@@ -12,6 +12,8 @@ This documentation outlines the various way developers can extend & enhance the 
     7. [Config](PageBuilder/Config.md)
     8. [Stage](PageBuilder/Stage.md)
     9. [Edit](PageBuilder/Edit.md)
+    	1. [Input Types](PageBuilder/Edit/InputTypes.md)
+    	2. [Widgets](PageBuilder/Edit/Widgets.md)
 2. [Content Apps](ContentApps/Overview.md)
 	1. [Overview](ContentApps/Overview.md)
 
