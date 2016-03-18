@@ -67,4 +67,4 @@ The core implements a number of different hooks to allow your plugin / widget to
 - gene-bluefoot-stage-save-extra
 - gene-bluefoot-get-options-*CODE*
 
->> If you believe we should implement further hooks throughout the system please contact us and we will include these in future releases.
+> If you believe we should implement further hooks throughout the system please contact us and we will include these in future releases.
