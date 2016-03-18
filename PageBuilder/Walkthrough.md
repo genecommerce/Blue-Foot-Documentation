@@ -27,8 +27,8 @@ These are the core backbone to the page builder, they provide different crucial 
 - [`plugins.js`](PageBuilder/Plugins.md) - the initialization and running of any defined plugins.
 - `renderer.js` - an interface between the page builder and MustacheJS.
 - [`stage.js`](PageBuilder/Stage.md) - every instance of the page builder is refered to as the stage, this file handles the communication between all the other components. A new version of the inner class is initialized when a user enables blue foot.
-  - build.js - handles rebuilding the stages content blocks from a stored string.
-  - panel.js - builds the left handle panel, handling the rendering of content blocks and initializing the drag drop class to provide drag and drop functionality.
-  - save.js - utilises the hook system to automatically build the data into a JSON object that the server side can parse, and save. 
+  - `build.js` - handles rebuilding the stages content blocks from a stored string.
+  - `panel.js` - builds the left handle panel, handling the rendering of content blocks and initializing the drag drop class to provide drag and drop functionality.
+  - `save.js` - utilises the hook system to automatically build the data into a JSON object that the server side can parse, and save. 
 - `structural.js` - handles any static structural elements that can be added on the page, this currently includes rows and columns.
 - [`template.js`](PageBuilder/Template.md) - provides functionality to allow users to save templates of their current page builder content, alongside reloading this.
