@@ -90,7 +90,7 @@ For instance the core upload widget has a depdency for DropzoneJs:
 
 Our JavaScript widget file then contains a depedency for `bluefoot/dropzone` which will automatically load Dropzone into our widget.
 
->>> These plugins don't currently support non-AMD compatible (RequireJS) JavaScript files.
+> These plugins don't currently support non-AMD compatible (RequireJS) JavaScript files.
 
 #### JavaScript
 Every widget has a JavaScript file that handles the functionality of the widget. This widget is responsbile to building the HTML elements, updating their values and can provide further functionality when serializing the edit form.
@@ -126,8 +126,8 @@ The constructor of the class will be passed 3 different parameters.
 - **field** [object]: The fields information that is being rendered, this will include any information from the configuration call earlier.
 - **value**: The previous value for this field, if the field has different make up from a standard field the widget will need to implement logic to correctly update it's components.
 - **edit**: The instance of the edit class that was used to build this widget. This can be used when the widget needs to interact with other parts of Blue Foot.
-- 
->>>***Abstract Class***: In a future version we will implement an abstract class that can be extended and provides basic functionality for functions that are commonly implemented.
+
+> ***Abstract Class***: In a future version we will implement an abstract class that can be extended and provides basic functionality for functions that are commonly implemented.
 
 The widget will then need to implement a `buildHtml` function which will return the fields HTML to be rendered into the edit form.
 
