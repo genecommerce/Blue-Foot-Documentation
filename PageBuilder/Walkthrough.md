@@ -9,7 +9,7 @@ The entirity of the Page Builders JavaScript code is located in `js/gene/cms/` w
 
 ### Core vs Local
 You'll see within a number of directories there are both core, and local folders. Core folders are reserved for the core Blue Foot development team, any customizations or additions to the system should be created in the local folder, followed by a namespace. 
-For instance creating a new local storage component you'd create the file `component/core/namespace/localstorage.js`.
+For instance creating a new local storage component you'd create the file `component/local/namespace/localstorage.js`.
 
 If you're wanting to override a core file you're able to do this via our [plugin system](PageBuilder/Plugins.md).
 
