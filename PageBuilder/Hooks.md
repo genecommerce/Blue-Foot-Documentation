@@ -85,3 +85,29 @@ The core implements a number of different hooks to allow your plugin / widget to
 - gene-bluefoot-get-options-*CODE*
 
 > If you believe we should implement further hooks throughout the system please contact us and we will include these in future releases.
+
+### Triggering your own hook
+We strongly suggest implementing your own hooks, so others can inject functionality into your code.
+
+#### Waiting hook
+You can implement a hook so that it won't run the callback functionality until all attached hooks have finished running. You can see a number of these being called in the early initializing of the page builder.
+
+Here you can see an example from `stage.js`
+```
+// Fire a trigger
+Hook.trigger('gene-bluefoot-before-stage-init', {
+    button: jQuery(button),
+    id: this.id,
+    container: container
+}, function () {
+    // Logic to run after hook
+}.bind(this), this);
+```
+
+#### Non waiting hook
+A non waiting hook will call the attached events, but won't wait until they're completed to continue on with the rest of the functionality. You can implement a non waiting hook by passing false in place of the callback function.
+
+Here you can see how we inform the system that the stages UI has been updated. This runs functionality to ensure the stage is being presented correctly.
+```
+Hook.trigger('gene-bluefoot-stage-ui-updated', false, false, this);
+```
