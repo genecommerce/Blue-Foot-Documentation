@@ -12,7 +12,15 @@ To retrieve an instance of the modal file, you can call:
 require('bluefoot/modal');
 ```
 
-However we would suggest you declare this as a depedency of the current file so it can be used multiple times.
+However we would suggest you declare this as a depedency of the current file so it can be used multiple times. If you declare it as a depdency instead of using a require, you will use the variable you assign the instance to in place of the `require('bluefoot/modal')` code above.
+
+```
+define(['bluefoot/hook', 'bluefoot/modal'], function (Hook, Modal) {
+    ...
+    Modal.alert(..);
+    ...
+});
+```
 
 ### Alert
 If you're wanting to fire an alert you can do so by calling the following.
