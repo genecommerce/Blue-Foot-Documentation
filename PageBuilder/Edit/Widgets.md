@@ -14,7 +14,7 @@ Widgets in Blue Foot allow a developer to create a new type of field within the 
 
 Some of these are used to mimic similar fields available in core Magento, for instance the WYSIWYG field creates an instance of TinyMCE within the page builder.
 
-#### XML Configuration
+### XML Configuration
 The system allows you to easily, and dynamically create new widgets without having to modify any core components.
 
 A widget has to be created as part of a complete Magento module. This module will contain a *genecms.xml* file. Within this file we are able to declare our widgets. The declaration in this file creates an alias within *RequireJS* to allow the system to automatically load your widget when it's assigned to a field.
@@ -71,7 +71,7 @@ Within a JavaScript plugin you need to declare two attributes:
 - **alias**: The alias which this file can be loaded from, in the case of all widgets this should start with `bluefoot/widget`. It should then be prepended by the alias of the widget declared earlier in the widgets section.
 - **path**: The actual path to the JavaScript file, in the case of a core widget the file will be located in the core folder. However you should locate your file within the local directory. You don't include the .js extension with the path.
 
-#### Other Resources
+### Other Resources
 If your widget requires a 3rd party library or another JavaScript file as well as your widget file you'll need to implement another entry in `plugins/js`.
 
 For instance the core upload widget has a depdency for DropzoneJs:
@@ -92,7 +92,7 @@ Our JavaScript widget file then contains a depedency for `bluefoot/dropzone` whi
 
 > These plugins don't currently support non-AMD compatible (RequireJS) JavaScript files.
 
-#### JavaScript
+### JavaScript
 Every widget has a JavaScript file that handles the functionality of the widget. This widget is responsbile to building the HTML elements, updating their values and can provide further functionality when serializing the edit form.
 
 From our XML earlier we know that the product search widget is located at `widget/core/search/product`, this file is a standard RequireJS file with a class being created within. In this instance the product widget is in a sub folder of search, however this isn't a requirement but suggested to aid in the organisation of widgets.
@@ -210,7 +210,7 @@ As we have a single instance of this class we can utilise all the elements that 
     };
 ```
 
-#### Plugin Config
+### Plugin Config
 Your widget may need to pass through further data from Magento the page builder instance. For instance a URL, system configuration settings or something that has to be generated server side. In this instance you can add information into the configuration via a Magento event.
 
 For this you will need to implemenet an observer for ```gene_cms_stage_build_config```. This follows the same format as standard Magento events within your ```config.xml```. This event has one parameter ```config``` which contains the configuration that will be returned to the page builder.
@@ -258,7 +258,7 @@ As we're adding this key to the plugin data, under the ```gene_widget_search_pro
 Config.getPluginConfig('gene_widget_search_product', 'source_url')
 ````
 
-#### Summary
+### Summary
 Widgets are a great way to add new functionality into your extension to Blue Foot. They can drastically enhance a users experience through clever UX and customization of elements.
 
 
