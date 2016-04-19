@@ -46,7 +46,7 @@ Hook.attach('gene-bluefoot-stage-ui-updated', function ($hook) {
 }.bind(this));
 ```
 
-> Not all hooks wait for hooks to finish, you can determine this by seeing if the Hook.trigger implements a callback function.
+> Not all triggered hooks wait for the attached hooks to finish, you can determine this by seeing if the Hook.trigger implements a callback function.
 
 ### Parameters
 When parameters are passed during the trigger event they're available within the `$hook` object, under the `params` key.
