@@ -1,6 +1,6 @@
 # Blue Foot: Page Builder
 ## Walkthrough
-The entirity of the Page Builders JavaScript code is located in `js/gene/cms/` within this folder you will see a number of folders for the various different aspects of the page builder.
+The entirity of the Page Builders JavaScript code is located in `js/gene/bluefoot/` within this folder you will see a number of folders for the various different aspects of the page builder.
 
 - `component` - houses the various components required by the system to initialize, interact with the server side and interact with the user.
 - `content-type` - each content block can have a custom content block class assigned to it, the core only ships with an abstract content block class. This class handles the functionality associated with the particular content block and it's data.
