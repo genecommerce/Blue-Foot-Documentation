@@ -63,26 +63,26 @@ $hook.params.message;
 ### Core hooks
 The core implements a number of different hooks to allow your plugin / widget to interact with many different parts of Blue Foot.
 
-- gene-bluefoot-stage-ui-updated
-- gene-bluefoot-stage-restore-empty-text
-- gene-bluefoot-stage-updated
-- gene-bluefoot-stage-visible
-- gene-bluefoot-entity-update-previews
-- gene-bluefoot-after-edit-view
-- gene-bluefoot-after-edit-init
-- gene-bluefoot-save-configure-entity
-- gene-bluefoot-validate-form
-- gene-bluefoot-before-render-field
-- gene-bluefoot-after-render-field-*FIELD_TYPE*
-- gene-bluefoot-plugins-prepare-before
-- gene-bluefoot-plugins-prepare-paths
-- gene-bluefoot-plugins-prepare-after
-- gene-bluefoot-before-stage-init
-- gene-bluefoot-after-stage-init
-- gene-bluefoot-build-complete
-- gene-bluefoot-panel-get-config
-- gene-bluefoot-stage-save-extra
-- gene-bluefoot-get-options-*CODE*
+- `gene-bluefoot-stage-ui-updated`
+- `gene-bluefoot-stage-restore-empty-text`
+- `gene-bluefoot-stage-updated`
+- `gene-bluefoot-stage-visible`
+- `gene-bluefoot-entity-update-previews`
+- `gene-bluefoot-after-edit-view`
+- `gene-bluefoot-after-edit-init`
+- `gene-bluefoot-save-configure-entity`
+- `gene-bluefoot-validate-form`
+- `gene-bluefoot-before-render-field`
+- `gene-bluefoot-after-render-field-*FIELD_TYPE*`
+- `gene-bluefoot-plugins-prepare-before`
+- `gene-bluefoot-plugins-prepare-paths`
+- `gene-bluefoot-plugins-prepare-after`
+- `gene-bluefoot-before-stage-init`
+- `gene-bluefoot-after-stage-init`
+- `gene-bluefoot-build-complete`
+- `gene-bluefoot-panel-get-config`
+- `gene-bluefoot-stage-save-extra`
+- `gene-bluefoot-get-options-*CODE*`
 
 > If you believe we should implement further hooks throughout the system please contact us and we will include these in future releases.
 
@@ -104,8 +104,8 @@ Hook.trigger('gene-bluefoot-before-stage-init', {
 }.bind(this), this);
 ```
 
-#### Non waiting hook
-A non waiting hook will call the attached events, but won't wait until they're completed to continue on with the rest of the functionality. You can implement a non waiting hook by passing false in place of the callback function.
+#### Nonwaiting hook
+A nonwaiting hook will call the attached events, but won't wait until they're completed to continue on with the rest of the functionality. You can implement a non waiting hook by passing false in place of the callback function.
 
 Here you can see how we inform the system that the stages UI has been updated. This runs functionality to ensure the stage is being presented correctly.
 ```
