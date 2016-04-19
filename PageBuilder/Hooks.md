@@ -31,6 +31,21 @@ Attaching onto an event only has two parameters, the first being the name of the
 
 The complete function will be passed an instance of `$hook` for the system to behave correctly you must **always** call `$hook.done();` once your processing is finished, failure to do so could cause some very strange behaviour.
 
+> Failure to call $hook.done() could result in the page builder system failing to initialize or complete important operations. If you're building a system utilising hooks and experience an issue please ensure all your hooks are calling this once their processing has finished.
+
+#### Asynchronous callback
+If you need to conduct an asynchronous action (such as an Ajax request) you're able to call `$hook.done()` once that operation has completed or failed. 
+
+```
+Hook.attach('gene-bluefoot-stage-ui-updated', function ($hook) {
+    var Ajax = new AjaxClass();
+    Ajax.post('url', {}, function (data) {
+        // Logic here from response
+        $hook.done();
+    });
+}.bind(this));
+```
+
 ### Parameters
 When parameters are passed during the trigger event they're available within the `$hook` object, under the `params` key.
 
