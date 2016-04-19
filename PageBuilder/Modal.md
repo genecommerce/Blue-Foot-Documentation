@@ -4,7 +4,7 @@ The modal system allows the system to present the user with attractive and user 
 
 The functionality for the modal system can be found within the `modal.js` component.
 
-### Requiring the modal system
+### Calling the modal system
 The modal system is included early on in the applications initializing, this means you don't have to declare it as a dependency of the current file.
 
 To retrieve an instance of the modal file, you can call:
