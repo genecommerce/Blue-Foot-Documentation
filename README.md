@@ -16,4 +16,4 @@ This documentation outlines the various way developers can extend & enhance the 
     	2. [Widgets](PageBuilder/Edit/Widgets.md)
 
 ## Magento 2
-To be released.
+Our Magento 2 module is currently unreleased. Once the M2 version is released we will also release the documentation. 
