@@ -34,7 +34,7 @@ The complete function will be passed an instance of `$hook` for the system to be
 > Failure to call $hook.done() could result in the page builder system failing to initialize or complete important operations. If you're building a system utilising hooks and experience an issue please ensure all your hooks are calling this once their processing has finished.
 
 #### Asynchronous callback
-If you need to conduct an asynchronous action (such as an Ajax request) you're able to call `$hook.done()` once that operation has completed or failed. 
+If you need to conduct an asynchronous action (such as an Ajax request) you're able to call `$hook.done()` once that operation has completed or failed. The hook system will wait until the operation is completed, and the callback is called to run the next hook, or complete the hooks callback function.
 
 ```
 Hook.attach('gene-bluefoot-stage-ui-updated', function ($hook) {
@@ -45,6 +45,8 @@ Hook.attach('gene-bluefoot-stage-ui-updated', function ($hook) {
     });
 }.bind(this));
 ```
+
+> Not all hooks wait for hooks to finish, you can determine this by seeing if the Hook.trigger implements a callback function.
 
 ### Parameters
 When parameters are passed during the trigger event they're available within the `$hook` object, under the `params` key.
