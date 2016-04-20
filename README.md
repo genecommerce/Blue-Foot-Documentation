@@ -3,7 +3,7 @@ This documentation outlines the various way developers can extend & enhance the 
 
 ## Magento 1
 1. [Page Builder](PageBuilder/Overview.md)
-	1. [Overview](PageBuilder/Overview.md)
+    1. [Overview](PageBuilder/Overview.md)
     2. [Walkthrough](PageBuilder/Walkthrough.md)
     3. [Resources](PageBuilder/Resources.md)
     4. [Hooks](PageBuilder/Hooks.md)
@@ -14,6 +14,9 @@ This documentation outlines the various way developers can extend & enhance the 
     9. [Edit](PageBuilder/Edit.md)
     	1. [Input Types](PageBuilder/Edit/InputTypes.md)
     	2. [Widgets](PageBuilder/Edit/Widgets.md)
+2. [Page Builder Blocks](PageBuilderBlocks/Overview.md)
+	1. [Overview](PageBuilderBlocks/Overview.md)
+	2. [Creating a custom block](PageBuilderBlocks/CustomBlock.md)
 
 ## Magento 2
 Our Magento 2 module is currently unreleased. Once the M2 version is released we will also release the documentation. 
