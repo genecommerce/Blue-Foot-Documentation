@@ -1,4 +1,4 @@
-# Blue Foot: Page Builder
+# BlueFoot: Page Builder
 ## Plugins
 You can declare a plugin to run specific code at a certain point within the page builder. This can be useful to attach a number of hooks, fire other hooks or modify aspects of the stage.
 
