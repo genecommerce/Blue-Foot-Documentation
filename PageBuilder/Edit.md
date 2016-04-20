@@ -1,4 +1,4 @@
-# Blue Foot: Page Builder
+# BlueFoot: Page Builder
 ## Edit
 The edit panel is the sidebar that scrolls into the right whenever a user is editing content.
 
