@@ -1,4 +1,4 @@
-# Blue Foot: Page Builder
+# BlueFoot: Page Builder
 ## Resources
 Blue Foot is bundled with a number of resources that are required for various operations and user interactions within the page builder. You're welcome to call any of these as dependencies in your own widgets & plugins.
 
