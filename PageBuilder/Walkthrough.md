@@ -1,4 +1,4 @@
-# Blue Foot: Page Builder
+# BlueFoot: Page Builder
 ## Walkthrough
 The entirity of the Page Builders JavaScript code is located in `js/gene/bluefoot/` within this folder you will see a number of folders for the various different aspects of the page builder.
 
