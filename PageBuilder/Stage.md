@@ -1,4 +1,4 @@
-# Blue Foot: Page Builder
+# BlueFoot: Page Builder
 ## Stage
 The stage is one of the most important parts of the page builder. It's the area which houses all of your rows, columns & content. Along with allowing interactions between other components such as the left panel.
 
