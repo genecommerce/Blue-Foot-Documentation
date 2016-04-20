@@ -1,4 +1,4 @@
-# Blue Foot: Page Builder Blocks
+# BlueFoot: Page Builder Blocks
 ## Input Types
 Magneto implments a number of familiar input types, along with renderers within their form widgets. Our page builder implements these input types in JavaScript to align the page builder experience with the true capabilities of Magento.
 
