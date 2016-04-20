@@ -1,4 +1,4 @@
-# Blue Foot: Page Builder
+# BlueFoot: Page Builder
 ## Config
 The page builder relies on a lot of data from Magento. It retrieves this via an Ajax request when the page builder is initialized. The request is defered until the user requests the page builder interface to ensure that we don't interupt their other interaction with the page.
 
