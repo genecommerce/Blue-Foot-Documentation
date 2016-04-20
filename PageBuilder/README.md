@@ -1,4 +1,4 @@
-# Blue Foot: Page Builder
+# BlueFoot: Page Builder
 
 1. [Overview](/PageBuilder/Overview.md)
 2. [Walkthrough](/PageBuilder/Walkthrough.md)
