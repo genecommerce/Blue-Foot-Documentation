@@ -1,4 +1,4 @@
-# Blue Foot: Page Builder
+# BlueFoot: Page Builder
 ## Widgets
 
 Widgets in Blue Foot allow a developer to create a new type of field within the Blue Foot page builder. This can provide extended functionality upon a field, a number of core widgets are provided by default:
