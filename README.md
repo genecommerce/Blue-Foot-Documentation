@@ -16,7 +16,8 @@ This documentation outlines the various way developers can extend & enhance the 
     	2. [Widgets](PageBuilder/Edit/Widgets.md)
 2. [Page Builder Blocks](PageBuilderBlocks/Overview.md)
 	1. [Overview](PageBuilderBlocks/Overview.md)
-	2. [Creating a custom block](PageBuilderBlocks/CustomBlock.md)
+	2. [Content Attributes](PageBuilderBlocks/ContentAttributes.md)
+	3. [Creating a custom block](PageBuilderBlocks/CustomBlock.md)
 
 ## Magento 2
 Our Magento 2 module is currently unreleased. Once the M2 version is released we will also release the documentation. 
