@@ -1,4 +1,4 @@
-# Blue Foot: Page Builder
+# BlueFoot: Page Builder
 ## Hooks
 
 The hook system is a pub/sub, observer/event system built directly into the core of the page builder. This enables easy extension to numerous actions a user can make whilst interacting with the page builder. 
