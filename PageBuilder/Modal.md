@@ -1,4 +1,4 @@
-# Blue Foot: Page Builder
+# BlueFoot: Page Builder
 ## Modal
 The modal system allows the system to present the user with attractive and user orientated messages.
 
