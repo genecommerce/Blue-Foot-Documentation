@@ -24,3 +24,8 @@ https://www.bluefootcms.com/
 
 ## Magento 2
 Our Magento 2 module is currently unreleased. Once the M2 version is released we will also release the documentation. 
+
+## Contributions or requests
+If you're wanting to make any contributions or changes to these docs, please feel free to conduct a pull request and it will be approved by one of our developers if it's deemed helpful.
+
+If you're unsure on how pull requests work, or wish to request more information around a certain topic please email documentation@bluefootcms.com
