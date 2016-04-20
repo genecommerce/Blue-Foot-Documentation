@@ -1,4 +1,6 @@
 # BlueFoot: Developer Documentation
+
+[![Join the chat at https://gitter.im/DaveMacaulay/Blue-Foot-Documentation](https://badges.gitter.im/DaveMacaulay/Blue-Foot-Documentation.svg)](https://gitter.im/DaveMacaulay/Blue-Foot-Documentation?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 This documentation outlines the various way developers can extend & enhance the Blue Foot Magento module. The Blue Foot system has two main areas which can be extended, the page builder and content apps. Both are outlined in seperate sections which can be accessed below.
 
 For more information see:
