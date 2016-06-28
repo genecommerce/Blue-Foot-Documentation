@@ -12,13 +12,13 @@ From here you can add your own attribute.
 <structural>
     <ELEMENT>
         <fields>
-            <template>
+            <FIELD_IDENTIFIER>
                 <label><![CDATA[]]></label>
                 <type></type>
                 <code></code>
                 <widget></widget>
                 <source_model></source_model>
-            </template>
+            </FIELD_IDENTIFIER>
         </fields>
     </ELEMENT>
 </structural>
@@ -48,11 +48,11 @@ app/code/community/[Namespace]/[Module]/etc/bluefoot/pagebuilder.xml
     <structural>
         <column>
             <fields>
-                <template>
+                <title>
                     <label><![CDATA['Title']]></label>
                     <type>text</type>
                     <code>title</code>
-                </template>
+                </title>
             </fields>
         </ELEMENT>
     </structural>
