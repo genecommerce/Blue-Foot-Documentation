@@ -28,6 +28,7 @@ ELEMENT should be either row or column.
 
 To use a widget rather than a standard input pass 'widget' into the type argument and then define the widget as a separate argument.
 
+
 ##### Accessing your Attribute in a phtml file
 To access your new attribute within your phtml files you can simply pass the attribute code to the 'getFormData' function.
 
@@ -35,8 +36,9 @@ To access your new attribute within your phtml files you can simply pass the att
 <?php echo $this->getFormData(ATTRIBUTE_CODE); ?>
 ```
 
+
 ##### Example Code
-This example shows how to add the text attribute title to columns
+This example shows how to add the text attribute 'title' to columns.
 
 app/code/community/[Namespace]/[Module]/etc/bluefoot/pagebuilder.xml
 
