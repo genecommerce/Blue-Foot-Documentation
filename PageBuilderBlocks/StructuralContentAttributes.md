@@ -34,3 +34,36 @@ To access your new attribute within your phtml files you can simply pass the att
 ```
 <?php echo $this->getFormData(ATTRIBUTE_CODE); ?>
 ```
+
+##### Example Code
+This example shows how to add the text attribute title to columns
+
+app/code/community/[Namespace]/[Module]/etc/bluefoot/pagebuilder.xml
+
+```
+<?xml version="1.0"?>
+<config>
+    <structural>
+        <column>
+            <fields>
+                <template>
+                    <label><![CDATA['Title']]></label>
+                    <type>text</type>
+                    <code>title</code>
+                </template>
+            </fields>
+        </ELEMENT>
+    </structural>
+</config>
+```
+app/design/frontent/[Package]/[Theme]/template/gene/bluefoot/pagebuilder/structural/core/column.phtml
+
+```
+<div class="bluefoot-column <?php echo $this->getCssAttributes(); ?>"<?php echo $this->getStyleAttributes(); ?>>
+    <?php if ($_title = $this->getFormData('title')): ?>
+        <h3><?php echo $_title; ?></h3>
+    <?php endif; ?>
+    <?php echo $this->getRenderedChildHtml(); ?>
+</div>
+```
+
