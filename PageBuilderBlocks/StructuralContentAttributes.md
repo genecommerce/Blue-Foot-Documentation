@@ -1,6 +1,6 @@
 # Blue Foot: Page Builder Blocks
 ## Structural Content Attributes
-Content attributes for structural elements such as rows and columns cannot be added using the admin interface, these are defined in XML.  You will see these defined within '''<structural>''' within app/code/community/Gene/BlueFoot/etc/bluefoot/pagebuilder.xml.
+Content attributes for structural elements such as rows and columns cannot be added using the admin interface, these are defined in XML.  You will see these defined within a structural tag in app/code/community/Gene/BlueFoot/etc/bluefoot/pagebuilder.xml.
 
 ##### Adding a Structural Content Attribute
 To add a structural content attribute you must first create a pagebuilder.xml within your module.
