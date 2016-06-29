@@ -24,6 +24,7 @@ https://www.bluefootcms.com/
 	1. [Overview](PageBuilderBlocks/Overview.md)
 	2. [Content Attributes](PageBuilderBlocks/ContentAttributes.md)
 	3. [Creating a custom block](PageBuilderBlocks/CustomBlock.md)
+	4. [Creating a structural content attribute](StructuralContentAttributes.md)
 
 ## Magento 2
 Our Magento 2 module is currently unreleased. Once the M2 version is released we will also release the documentation. 
