@@ -54,7 +54,7 @@ app/code/community/[Namespace]/[Module]/etc/bluefoot/pagebuilder.xml
                     <code>title</code>
                 </title>
             </fields>
-        </ELEMENT>
+        </column>
     </structural>
 </config>
 ```
