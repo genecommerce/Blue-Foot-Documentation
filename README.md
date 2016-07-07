@@ -27,7 +27,7 @@ https://www.bluefootcms.com/
 	4. [Creating a structural content attribute](PageBuilderBlocks/StructuralContentAttributes.md)
 
 ## Magento 2
-Our Magento 2 module is currently unreleased. Once the M2 version is released we will also release the documentation. 
+We are in the process of completing our Magento 2 documentation. These will be available shortly, if you have any questsions regarding how to use Magento 2 please contact our support.
 
 ## Contributions or requests
 If you're wanting to make any contributions or changes to these docs, please feel free to conduct a pull request and it will be approved by one of our developers if it's deemed helpful.
