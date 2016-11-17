@@ -25,6 +25,8 @@ https://www.bluefootcms.com/
 	2. [Content Attributes](PageBuilderBlocks/ContentAttributes.md)
 	3. [Structural Content Attributes](PageBuilderBlocks/StructuralContentAttributes.md)
 	4. [Creating a custom block](PageBuilderBlocks/CustomBlock.md)
+3. [Content Apps](ContentApps/Overview.md)
+	1. [Image Sizes](ContentApps/ImageSizes.md)
 
 ## Magento 2
 Our Magento 2 module is currently unreleased. Once the M2 version is released we will also release the documentation. 
